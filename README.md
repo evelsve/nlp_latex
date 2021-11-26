@@ -10,7 +10,7 @@ Download the repository or clone it using:
 
 Import the `shmex` folder into a new project in overleaf.
 
-Follow the `example.pdf`, recrete the contents in your `submission.tex`
+Follow the `example.pdf`, recreate the contents in your `submission.tex`
 
 Start crackin.
 
