@@ -1,0 +1,53 @@
+\documentclass[wide]{cluu}
+\usepackage[citestyle=authoryear]{biblatex}
+\addbibresource{library.bib}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{colortbl}
+\usepackage{enumitem}
+\usepackage{makecell}
+\usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+% \renewcommand{\arraystretch}{1}
+
+\title{Latex support}
+\author{Your name}
+\date{} 
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+This is a \LaTeX\ file. Follow the text in \texttt{exercises.pdf}  and recreate the text as well as formatting in your own document.
+
+\subsection{Comments on referencing}
+In order for the citations to work, either in this format: \citep{devlin2018bert} or in this format: \cite{devlin2018bert}, the following must be added at the end of the \LaTeX\ document:
+\begin{verbatim}
+    \bibliography{library.bib}
+\end{verbatim}
+Or, if you are using \texttt{cluu.cls}, in another format, as illustrated below.
+\begin{verbatim}
+    \printbibliography
+\end{verbatim}
+This line above is already included in this template. The bibliography is created automatically from \texttt{library.bib} file you have imported from the github repository. Open the file and explore it. Add the Introduction to NLP coursebook by Jurafsky reference using Google Scholar. Add the footnote link. Cite the coursebook here: [insert reference]. 
+
+\section{Formatting}
+
+
+\section{Figures}
+
+
+\section{Paragraphs}
+Recreate different paragraph separation styles.
+
+\subsection{Paragraph separation style no.1}
+
+
+\subsection{Paragraph separation style no.2}
+
+
+\printbibliography
+
+\end{document}
