@@ -1,14 +1,12 @@
 \documentclass[wide]{cluu}
-\usepackage[citestyle=authoryear]{biblatex}
-\addbibresource{library.bib}
 \usepackage{subcaption}
 \usepackage{hyperref}
 \usepackage{colortbl}
 \usepackage{enumitem}
-\usepackage{makecell}
-\usepackage[normalem]{ulem}
-% \useunder{\uline}{\ul}{}
-% \renewcommand{\arraystretch}{1}
+\useunder{\uline}{\ul}{}
+
+\usepackage[round]{natbib}
+
 
 \title{Latex support}
 \author{Your name}
@@ -47,7 +45,9 @@ Recreate different paragraph separation styles.
 
 \subsection{Paragraph separation style no.2}
 
+\bibliographystyle{plainnat}
+\setlength{\bibsep}{7pt}
+\bibliography{library}
 
-\printbibliography
 
 \end{document}
