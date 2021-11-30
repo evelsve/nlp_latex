@@ -1,5 +1,5 @@
-# Latex excercises
-Latex exercises for Language Technology students at Uppsala University.
+# Latex exercises
+Some basic Latex exercises. 
 
 **Instructions:**
 
@@ -8,7 +8,7 @@ Download the repository or clone it using:
 
 `git clone https://github.com/evelsve/nlp_latex`
 
-Import the `shmex` folder into a new project in overleaf.
+Import the `exercise` folder into a new project in overleaf.
 
 Follow the `example.pdf`, recreate the contents in your `submission.tex`
 
