@@ -14,6 +14,8 @@ Follow the `example.pdf`, recreate the contents in your `submission.tex`
 
 Start crackin.
 
+The answers can be found in `answers.tex`
+
 Sources:
 `cluu.cls` was downloaded from: https://cl.lingfil.uu.se/cluu/
 
